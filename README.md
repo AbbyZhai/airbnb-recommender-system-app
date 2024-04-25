@@ -6,7 +6,9 @@ by **team-spirit**<BR>SIADS699 W23<BR>University of Michigan MADS
 
 Both Airbnb hosts and customers face the daunting task of uncovering how other users truly feel about their Airbnb rental experience. Judging from the qualitative analysis results, customer reviews are influential to customers’ decision-making, and both the sentiment trends and negative reviews are helpful in verifying the rental descriptions and gaining helpful opinions towards the rental. Our interviewees valued negative reviews and even negative sentences in positive reviews up to 50% more than positive reviews.
 <BR><BR>
-However reading through every review in a large number of listings can be very time consuming. So we decided to see if we could make it easier. Our goal was to use data science to see what kind of content-based recommender system we could make by focusing mostly on the text elements of the rental listings.
+However reading through every review in a large number of listings can be very time consuming. So we decided to see if we could make it easier. 
+
+Our goal was to use data science to see what kind of content-based recommender system we could make by focusing mostly on the text elements of the rental listings. Specifically, making an recommender app that returns recommendations based on a user's text input. Along with the recommendatons, the app would also have a review analyzer section, including historical listing review sentiment trend, listing descripton and review main topics, and potential negative review sentences. Further we wanted to see how adding numeric info to the search model would alter the results. 
 
 ## General logic of the recommender system
 
